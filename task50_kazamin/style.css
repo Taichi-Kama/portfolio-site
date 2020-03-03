@@ -1,0 +1,258 @@
+/* line 1, ../sass/style.scss */
+html {
+  font-size: 16px;
+  color: #292929;
+  font-family: 'Sitka Display','Avenir','Helvetica',sans-serif; }
+
+/* line 6, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* line 10, ../sass/style.scss */
+.sec-title {
+  font-size: 45px;
+  margin-bottom: 50px; }
+
+/* line 14, ../sass/style.scss */
+.section {
+  background: linear-gradient(180deg, #FFF 50%, #CBCBCB 50%, #CBCBCB 100%);
+  padding: 200px 10%; }
+
+/* line 19, ../sass/style.scss */
+.more {
+  display: block;
+  width: 200px;
+  line-height: 60px;
+  text-align: center;
+  background: #292929;
+  color: #fff; }
+
+#header {
+  width: 100vw;
+  height: 100vh;
+  background: url("img/main.jpg") no-repeat;
+  background-size: cover;
+  color: #fff; }
+  #header .filter {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+  #header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 5%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px; }
+    #header nav h1 {
+      font-size: 25px; }
+    #header nav .hamburger {
+      width: 60px;
+      height: 40px;
+      position: relative; }
+      #header nav .hamburger span {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid;
+        position: absolute; }
+        #header nav .hamburger span:nth-child(1) {
+          top: 0px; }
+        #header nav .hamburger span:nth-child(2) {
+          top: 20px; }
+        #header nav .hamburger span:nth-child(3) {
+          top: 40px;
+          width: 50%; }
+  #header .catch-copy {
+    text-align: center; }
+    #header .catch-copy h2 {
+      font-size: 80px; }
+    #header .catch-copy .sub-catch-copy {
+      display: flex;
+      justify-content: center; }
+      #header .catch-copy .sub-catch-copy span {
+        width: 15%;
+        border-bottom: 1px solid;
+        margin: 15px 0px; }
+      #header .catch-copy .sub-catch-copy h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0 30px; }
+  #header .header-menu {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 25px;
+    display: flex;
+    padding: 25px 5%; }
+    #header .header-menu p {
+      line-height: 50px; }
+    #header .header-menu span {
+      display: block;
+      height: 50px;
+      border-right: 1px solid;
+      margin: 0 20px; }
+
+.sec-img {
+  width: 60%;
+  height: 600px;
+  background: url("img/about.jpg") no-repeat;
+  background-size: cover;
+  position: relative; }
+  .sec-img .deviated {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: -66.6%;
+    display: flex;
+    align-items: center; }
+  .sec-img article {
+    width: 100%;
+    height: 70%;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box; }
+
+#style {
+  text-align: center; }
+  #style .sec-title {
+    margin-bottom: 15px; }
+  #style .sub-title {
+    font-size: 18px;
+    margin: 15px 0 50px; }
+  #style span {
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid;
+    margin: auto; }
+  #style .sec-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px; }
+    #style .sec-container .style-child {
+      width: 26%;
+      height: 400px;
+      position: relative; }
+      #style .sec-container .style-child .style-title {
+        background: #FFF;
+        padding: 30px;
+        width: 50%;
+        position: absolute;
+        left: 0px;
+        bottom: -40px; }
+    #style .sec-container .style-child1 {
+      background: url("img/sytle1.jpg") no-repeat;
+      background-size: cover; }
+    #style .sec-container .style-child2 {
+      background: url("img/style2.jpg") no-repeat;
+      background-size: cover; }
+    #style .sec-container .style-child3 {
+      background: url("img/style3.jpg") no-repeat;
+      background-size: cover; }
+    #style .sec-container .more {
+      margin: 0 0 0 auto; }
+
+#stuff .sec-img {
+  width: 60%;
+  height: 600px;
+  margin: 0px 0px 0px auto;
+  background: url("img/stuff.jpg") no-repeat;
+  background-size: cover;
+  position: relative; }
+  #stuff .sec-img .deviated {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: -66.6%;
+    display: flex;
+    align-items: center; }
+  #stuff .sec-img article {
+    width: 100%;
+    height: 80%;
+    background: #FFF;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative; }
+    #stuff .sec-img article .more {
+      position: absolute;
+      bottom: 30px;
+      right: 30px; }
+
+#about .sec-img {
+  width: 60%;
+  height: 600px;
+  background-size: cover;
+  position: relative; }
+  #about .sec-img .deviated {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center; }
+  #about .sec-img article {
+    width: 100%;
+    height: 70%;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative; }
+    #about .sec-img article .more {
+      position: absolute;
+      bottom: 30px;
+      right: 30px; }
+#about .sec-img {
+  background: url("img/about.jpg") no-repeat;
+  background-size: cover; }
+  #about .sec-img .deviated {
+    right: -66.6%; }
+
+#stuff .sec-img {
+  width: 60%;
+  height: 600px;
+  background-size: cover;
+  position: relative; }
+  #stuff .sec-img .deviated {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center; }
+  #stuff .sec-img article {
+    width: 100%;
+    height: 70%;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative; }
+    #stuff .sec-img article .more {
+      position: absolute;
+      bottom: 30px;
+      right: 30px; }
+#stuff .sec-img {
+  margin: 0px 0px 0px auto;
+  background: url("img/stuff.jpg") no-repeat;
+  background-size: cover; }
+  #stuff .sec-img .deviated {
+    left: -66.6%; }
+  #stuff .sec-img article {
+    position: relative; }
+    #stuff .sec-img article .more {
+      position: absolute;
+      bottom: 30px;
+      right: 30px; }
+
+#footer {
+  font-size: 14px;
+  padding: 30px 0;
+  background-color: #292929;
+  color: #fff;
+  text-align: center; }
+  #footer h2 {
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */
